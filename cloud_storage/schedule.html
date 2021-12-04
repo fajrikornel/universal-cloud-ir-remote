@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Schedule Page</title>
+</head>
+
+<body>
+  <h1>Schedule Page</h1>
+  <div class="schedule">
+
+    <div id="containercode">
+      <label for="code">Select a code to send:</label>
+      <br>
+      <select name="code" id="code">
+      </select>
+    </div>
+
+    <div id="containertime">
+      <label for="time">Scheduled time starting from now (in milliseconds):</label>
+      <br>
+      <input id="time"></input>
+    </div>
+
+    <div id="containerbutton">
+      <button onclick="sendform()">Send!</button>
+    </div>
+
+  </div>
+  <form method="get" action="index.html">
+    <button type="submit">Cancel</button>
+  </form>
+
+  <script src="js/schedule.js"></script>
+</body>
+
+</html>
