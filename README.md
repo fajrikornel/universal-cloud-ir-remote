@@ -38,6 +38,12 @@ The microcontroller used are NodeMCU v0.9 (ESP8266). Below are the hardware sche
 
 This IoT device can be used as a low cost substitute for smart home solutions. Most IR-controlled home electronic devices today does not support an internet connection and smart control. With this device you may control your ordinary IR home devices (TV, AC) as if they are expensive smart home devices :).
 
+## Demo video
+
+Click to go to YouTube:
+
+[![Universal Smart Cloud IR Remote - Demo](https://img.youtube.com/vi/XsWuvpp9Xdc/0.jpg)](https://www.youtube.com/watch?v=XsWuvpp9Xdc "Universal Smart Cloud IR Remote - Demo")
+
 ## Acknowledgements
 
 This project mainly uses two libraries:
